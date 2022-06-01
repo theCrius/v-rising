@@ -39,7 +39,8 @@ The third one is to allow VOIP to be enabled in the game. You'll need to apply f
 
 ## Start it
 
-Clone this repo with `git clone https://github.com/theCrius/v-rising.git`. This will generate a directory called `v-rising`.
+Clone this repo with `git clone https://github.com/theCrius/v-rising.git`.  
+This will generate a directory called `v-rising`.
 
 From the `v-rising` directory:
 
