@@ -39,19 +39,21 @@ The third one is to allow VOIP to be enabled in the game. You'll need to apply f
 
 ## Start it
 
-From the `vrising-server` directory:
+Clone this repo with `git clone https://github.com/theCrius/v-rising.git`. This will generate a directory called `v-rising`.
+
+From the `v-rising` directory:
 
 `docker-compose up --build -d`
 
 ## Stop it
 
-From the `vrising-server` directory:
+From the `v-rising` directory:
 
 `docker-compose down`
 
 ## Update V Rising
 
-From the `vrising-server` directory:
+From the `v-rising` directory:
 
 First `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose down && docker-compose up -d`
 
@@ -70,7 +72,7 @@ The `adminlist.txt` file is watched so there is no need for a restart.
 
 ## Check logs from outside the container
 
-From the `vrising-server` directory:
+From the `v-rising` directory:
 
 `docker-compose logs --follow` and `CTRL+C` to stop watching the logs
 
