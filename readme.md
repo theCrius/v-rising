@@ -5,8 +5,8 @@ This is a temporary solution until a proper linux executable server i released.
 
 ## Requirements
 
-- docker v20.10.16
-- docker-compose (recommended) v1.29.2
+- docker v20.10.16 [how to install - step 1 & 2](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
+- docker-compose (recommended) v1.29.2 [how to install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04)
 
 ## Preparation
 
