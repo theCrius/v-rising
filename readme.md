@@ -53,7 +53,7 @@ From the `vrising-server` directory:
 
 From the `vrising-server` directory:
 
-First `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose up -d`
+First `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose down && docker-compose up -d`
 
 ## Access the running container
 
