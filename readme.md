@@ -1,7 +1,7 @@
 # V Rising Dedicated Server
 
 Docker Container with Wine wrapper.  
-This is a temporary solution until a proper linux executable server i released.
+This is a temporary solution until a proper linux executable server is released.
 
 ## Requirements
 
