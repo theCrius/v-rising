@@ -5,7 +5,7 @@ services:
     build:
         context: .
         args:
-          STEAM_EPOC:
+          STEAM_EPOCH:
           UID: ${UID}
           GID: ${GID}
     volumes: 
