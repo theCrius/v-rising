@@ -44,6 +44,12 @@ This will generate a directory called `v-rising`.
 
 From the `v-rising` directory:
 
+Run these two commands to be sure that the container user have access to your `vrising-server` directory:  
+`export UID=$(id -u)`  
+`export UID=$(id -g)`
+
+After that, run:
+
 `docker-compose up --build -d`
 
 ## Stop it
@@ -56,7 +62,11 @@ From the `v-rising` directory:
 
 From the `v-rising` directory:
 
-First `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose down && docker-compose up -d`
+Run `export UID=$(id -u)` and `export UID=$(id -g)`
+
+Then `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose up -d`
+
+This will inject the `STEAM_EPOCH` variable with the current date forcing the image to be rebuilt ignoring the local cache and so, downloading also the latest version of the V Rising Server.
 
 ## Access the running container
 
