@@ -1,11 +1,13 @@
 version: "3"
 
 services: 
-  vrising: 
+  vrising:
     build:
         context: .
         args:
           STEAM_EPOC:
+          UID: ${UID}
+          GID: ${GID}
     volumes: 
       - $HOME/vrising-server:/vrising/server-data
     ports: 
