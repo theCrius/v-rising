@@ -20,7 +20,8 @@ Custom settings are three files:
 - ServerVoipSettings.json
 
 Examples for the first two is available in `${HOME}/VRisingServer_Data/StreamingAssets/Settings` inside the docker container itself or online searching for examples.
-The third one is to allow VOIP to be enabled in the game. You'll need to apply for a developer token at Vivox and fill the empty values with your credentials when approved.
+
+The third one is to allow VOIP to be enabled in the game. You'll need to apply for a developer token at Vivox and fill the empty values with your credentials when approved. If you don't have a valid token or don't care for VOIP to be enabled in game, you can skip this file.
 
 ```
 {
