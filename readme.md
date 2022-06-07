@@ -47,7 +47,7 @@ From the `v-rising` directory:
 
 Run these two commands to be sure that the container user have access to your `vrising-server` directory:  
 `export UID=$(id -u)`  
-`export UID=$(id -g)`
+`export GID=$(id -g)`
 
 The first command should give you a warning telling you that the UID environment already exists and it's read only. That is the correct output to expect.
 
@@ -65,7 +65,7 @@ From the `v-rising` directory:
 
 From the `v-rising` directory:
 
-Run `export UID=$(id -u)` and `export UID=$(id -g)`
+Run `export UID=$(id -u)` and `export GID=$(id -g)`
 
 Then `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose up -d`
 
