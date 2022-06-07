@@ -48,6 +48,8 @@ Run these two commands to be sure that the container user have access to your `v
 `export UID=$(id -u)`  
 `export UID=$(id -g)`
 
+The first command should give you a warning telling you that the UID environment already exists and it's read only. That is the correct output to expect.
+
 After that, run:
 
 `docker-compose up --build -d`
