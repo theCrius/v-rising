@@ -69,7 +69,7 @@ From the `v-rising` directory:
 
 Run `export UID=$(id -u)` and `export GID=$(id -g)`
 
-Then `docker-compose build --no-cache && docker-compose up -d`
+Then `docker-compose build --no-cache && docker-compose up -d --force-recreate`
 
 ## Access the running container
 
