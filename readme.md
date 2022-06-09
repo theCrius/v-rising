@@ -3,6 +3,8 @@
 Docker Container with Wine wrapper.  
 This is a temporary solution until a proper linux executable server is released.
 
+Tested with v0.5.41821
+
 ## Requirements
 
 - docker v20.10.16 [how to install - step 1 & 2](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
