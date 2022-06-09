@@ -21,7 +21,6 @@ USER vrising
 # Install Server
 ARG APPID=1829350
 ARG STEAM_BETAS
-ARG STEAM_EPOCH
 RUN ls -lha $INSTALL_DIR
 RUN steamcmd \
         +force_install_dir $INSTALL_DIR \
