@@ -67,9 +67,7 @@ From the `v-rising` directory:
 
 Run `export UID=$(id -u)` and `export GID=$(id -g)`
 
-Then `docker-compose build --build-arg STEAM_EPOCH=$(date +%s) && docker-compose up -d`
-
-This will inject the `STEAM_EPOCH` variable with the current date forcing the image to be rebuilt ignoring the local cache and so, downloading also the latest version of the V Rising Server.
+Then `docker-compose build --no-cache && docker-compose up -d`
 
 ## Access the running container
 
